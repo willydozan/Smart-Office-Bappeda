@@ -1,0 +1,13 @@
+{
+  "name": "e-kanjoli-smart-office",
+  "private": true,
+  "packageManager": "pnpm@10.15.0",
+  "scripts": {
+    "dev": "pnpm --filter @e-kanjoli/web dev",
+    "build": "pnpm --filter @e-kanjoli/web build",
+    "check": "pnpm --filter @e-kanjoli/web check"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.2"
+  }
+}
