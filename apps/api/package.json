@@ -1,0 +1,7 @@
+{
+  "name": "@e-kanjoli/api",
+  "private": true,
+  "scripts": { "dev": "wrangler dev", "deploy": "wrangler deploy", "check": "tsc --noEmit" },
+  "dependencies": { "hono": "^4.9.7" },
+  "devDependencies": { "@cloudflare/workers-types": "^4.20250906.0", "typescript": "^5.9.2", "wrangler": "^4.35.0" }
+}
