@@ -1,0 +1,8 @@
+name = "e-kanjoli-api"
+main = "src/index.ts"
+compatibility_date = "2026-09-04"
+workers_dev = true
+
+[vars]
+GOOGLE_SHEET_ID = ""
+GOOGLE_DRIVE_ROOT_ID = ""
